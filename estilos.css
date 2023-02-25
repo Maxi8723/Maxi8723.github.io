@@ -1,0 +1,9 @@
+*{
+    background-color:#e30520;
+}
+ul, p{
+    color:white;
+}
+p {
+    margin-top: 5px; margin-bottom: 5px; width: 300px;
+}
