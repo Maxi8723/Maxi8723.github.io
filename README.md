@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css"></link>
+    <link rel="stylesheet" type="text/css" href="estilos.css"></link>
    </head>
 <body>
     <img src="https://img.a.transfermarkt.technology/portrait/header/19885-1625772883.png?lm=1" title="Marcelo Gallardo" alt="Marcelo Gallardo" class="data-header__profile-image" height="181" width="139">
