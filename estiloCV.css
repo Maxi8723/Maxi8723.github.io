@@ -1,0 +1,45 @@
+body{
+    background-color: #E30520;
+    font-family: sans-serif; 
+}
+.caja {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+  }
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: auto;
+    grid-row-end: auto;
+}
+.box2 {
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+.box3 {
+    grid-row-start: 7;
+    grid-column-end: span 3;
+}
+p, li{
+    color: white;
+    margin: 0%;
+    font-family: cursive;
+}
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+.expandir {
+    width: 50%;
+    height: 50%;
+}
+.galeria{
+    display:block;
+    flex-wrap: wrap;
+    position: relative;
+}
+.galeria img {
+    margin-top: 10px;
+    opacity: 70%;
+}
