@@ -21,4 +21,4 @@ window.addEventListener("load", function() {
     imagenes.forEach((i) => {
         i.addEventListener("click", mostrarFotoAmpliada);
     });
-};
+});
