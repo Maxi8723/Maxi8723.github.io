@@ -5,8 +5,7 @@ window.addEventListener("load", function() {
     var mostrarFotoAmpliada = (f) => {
         for(var i=0; i<document.getElementsByClassName("eterno").length+1;i++){
             switch(f.target.id){
-            case `${i}`:
-                cambioImagen(`${i}`);    
+            case `${i}`: cambioImagen(`${i}`);    
             break;
             }
         }
@@ -22,4 +21,4 @@ window.addEventListener("load", function() {
     imagenes.forEach((i) => {
         i.addEventListener("click", mostrarFotoAmpliada);
     });
-});
+};
