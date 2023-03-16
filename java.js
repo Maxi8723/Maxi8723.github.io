@@ -22,3 +22,7 @@ window.addEventListener("load", function() {
         i.addEventListener("click", mostrarFotoAmpliada);
     });
 });
+
+let pregunta = window.confirm("¿Sos de River Plate?");
+let mensage = pregunta ? "Sos campeón de América" : "Perdiste en Madrid"
+console.log(mensage);
